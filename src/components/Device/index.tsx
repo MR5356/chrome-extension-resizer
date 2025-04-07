@@ -7,7 +7,7 @@ export interface Resolution {
 
 const Device: React.FC<Resolution> = ({width, height}) => {
     return (
-        <div className={`bg-gray-500 rounded relative overflow-hidden`} style={{
+        <div className={`bg-gray-500 rounded relative overflow-hidden select-none`} style={{
             height: `72px`,
             aspectRatio: width / height,
         }}>
