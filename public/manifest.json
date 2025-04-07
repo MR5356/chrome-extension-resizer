@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Window Resizer",
+  "version": "1.0",
+  "description": "调整 Chrome 浏览器窗口大小的工具",
+  "permissions": [
+    "windows"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "logo.png"
+  },
+  "icons": {
+    "48": "logo.png",
+    "128": "logo.png"
+  }
+}
